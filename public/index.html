@@ -27,9 +27,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><input class="form-control" ng-model="contact.name"></td>
-                    <td><input  class="form-control" ng-model="contact.email"></td>
-                    <td><input class="form-control" ng-model="contact.number"></td>
+                    <td><input class="form-control" ng-model="contact.name" ng-blur="validateName()"></td>
+                    <td><input  class="form-control" ng-model="contact.email" ng-blur="validateEmail()"></td>
+                    <td><input class="form-control" ng-model="contact.number" ng-blur="validateNumber()"></td>
                     <td><button class="btn btn-primary" ng-click="addContact()">Add Contact</button></td>
                     <td><button class="btn btn-info" ng-click="update()">Update</button></td>
                 </tr>
@@ -45,6 +45,6 @@
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.js"></script>
-    <script src="controllers/controllers.js"></script>
+    <script src="controller/controller.js"></script>
 </body>
 </html>
