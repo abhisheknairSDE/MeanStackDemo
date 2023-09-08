@@ -19,10 +19,10 @@ This Contact List App is a web application that allows you to manage a list of c
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
-   - `git clone https://github.com/your-username/contact-list-app.git`
+   - `git clone https://github.com/abhisheknairSDE/MeanStackDemo.git`
 
 2. Navigate to the project directory:
-   - `cd contact-list-app`
+   - `cd MeanStackDemo`
 
 3. Install the project dependencies using npm:
    - `npm install`
